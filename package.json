@@ -4,7 +4,7 @@
   "description": "NoteAlert – Smart Notes & Deadline Reminder Application with Excel-based storage",
   "scripts": {
     "start": "node backend/src/server.js",
-    "render-build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "render-build": "npm install --prefix backend && npm install --include=dev --prefix frontend && cd frontend && npm run build",
     "build:frontend": "npm run build --prefix frontend",
     "build": "npm run render-build",
     "dev:backend": "cd backend && npm run dev",
