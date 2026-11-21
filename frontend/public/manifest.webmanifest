@@ -1,0 +1,47 @@
+{
+  "name": "NoteAlert – Smart Notes & Deadline Reminder",
+  "short_name": "NoteAlert",
+  "description": "Smart Notes & Deadline Reminder Application with Excel-based storage",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Note",
+      "url": "/#/notes?action=new",
+      "description": "Create a new note"
+    },
+    {
+      "name": "New Task",
+      "url": "/#/tasks?action=new",
+      "description": "Create a new deadline task"
+    },
+    {
+      "name": "Calendar",
+      "url": "/#/calendar",
+      "description": "View calendar deadlines"
+    }
+  ]
+}

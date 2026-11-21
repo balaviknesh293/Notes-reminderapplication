@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="bellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="128" fill="url(#brandGrad)" />
+  
+  <!-- Note Sheet Icon Outline -->
+  <rect x="110" y="100" width="230" height="312" rx="28" fill="#ffffff" fill-opacity="0.95" />
+  <line x1="160" y1="180" x2="280" y2="180" stroke="#1e293b" stroke-width="18" stroke-linecap="round" />
+  <line x1="160" y1="230" x2="280" y2="230" stroke="#64748b" stroke-width="14" stroke-linecap="round" />
+  <line x1="160" y1="280" x2="240" y2="280" stroke="#94a3b8" stroke-width="14" stroke-linecap="round" />
+
+  <!-- Reminder Bell Accent Overlay -->
+  <g transform="translate(240, 210)">
+    <circle cx="120" cy="120" r="100" fill="#0f172a" stroke="#2563eb" stroke-width="12" />
+    <!-- Bell -->
+    <path d="M120 70 C100 70 85 85 85 105 L85 140 L70 155 L170 155 L155 140 L155 105 C155 85 140 70 120 70 Z" fill="url(#bellGrad)" />
+    <circle cx="120" cy="170" r="12" fill="#60a5fa" />
+  </g>
+</svg>

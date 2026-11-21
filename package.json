@@ -1,0 +1,12 @@
+{
+  "name": "notealert-root",
+  "version": "1.0.0",
+  "description": "NoteAlert – Smart Notes & Deadline Reminder Application with Excel-based storage",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
